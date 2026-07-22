@@ -1,0 +1,20 @@
+{
+  "name": "page-interaction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --e2e",
+    "chrome": "npx cypress open --e2e -b chrome",
+    "edge": "npx cypress open --e2e -b edge",
+    "headless": "npx cypress run -b edge"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.18.1",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
